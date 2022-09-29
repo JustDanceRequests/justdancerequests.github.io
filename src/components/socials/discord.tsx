@@ -4,7 +4,7 @@ export const DiscordSocial = component$(() => {
   return (
     <a
       href='#twitter'
-      className='m-2 w-10 h-10 inline-flex justify-center items-center shadow-sm rounded-full bg-[#8c9eff] text-white'
+      className='m-2 w-8 h-8 sm:w-10 sm:h-10 inline-flex justify-center items-center shadow-sm rounded-full bg-[#8c9eff] text-white'
       style={{ backgroundColor: '#8c9eff' }}
     >
       {/* ::discord svg */}

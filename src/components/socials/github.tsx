@@ -5,7 +5,7 @@ export const GitHubSocial = component$(() => {
     <a
       target='_blank'
       href='https://github.com/JustDanceRequests/'
-      className='m-2 w-10 h-10 inline-flex justify-center items-center shadow-sm rounded-full bg-gray-700 text-white'
+      className='m-2 w-8 h-8 sm:w-10 sm:h-10 inline-flex justify-center items-center shadow-sm rounded-full bg-gray-700 text-white'
     >
       {/* ::github svg */}
       <svg className='w-6 h-6 fill-current' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>

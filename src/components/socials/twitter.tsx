@@ -5,7 +5,7 @@ export const TwitterSocial = component$(() => {
     <a
       target='_blank'
       href='https://twitter.com/JDR_Twitch'
-      className='m-2 w-10 h-10 inline-flex justify-center items-center shadow-sm rounded-full bg-[#1DA1F2] text-white'
+      className='m-2 w-8 h-8 sm:w-10 sm:h-10 inline-flex justify-center items-center shadow-sm rounded-full bg-[#1DA1F2] text-white'
       style={{ backgroundColor: '#1DA1F2' }}
     >
       {/* ::twitter svg */}

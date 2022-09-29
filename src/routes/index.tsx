@@ -8,11 +8,13 @@ export default component$(() => {
         <Menu
           entries={[
             {
-              name: '🚀 The Project',
+              icon: '🚀',
+              name: 'The Project',
               href: '#about',
             },
             {
-              name: '🗺️ Roadmap',
+              icon: '🗺️',
+              name: 'Roadmap',
               href: '#roadmap',
             },
           ]}
