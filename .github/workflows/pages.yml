@@ -36,8 +36,11 @@ jobs:
       - name: Build GitHub Pages Content
         run: npm run build && npm run build.ssg && node server/entry.static.js
 
-      - name: Deploy GitHub Pages
+      - name: Create GitHub Pages Artifact
         uses: actions/upload-pages-artifact@v1.0.4
         with:
           # Path of the directory containing the static assets.
           path: dist/
+      
+      - name: Deploy GitHub Pages
+        uses: actions/deploy-pages@v1.2.1
