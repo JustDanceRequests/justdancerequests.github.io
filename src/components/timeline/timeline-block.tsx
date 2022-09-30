@@ -13,7 +13,7 @@ export const TimelineBlock = component$((props: TimelineBlockProps) => {
   return (
     <div class={['flex my-8 text-gray-800 dark:text-white', props.mirrored ? 'flex-row-reverse' : '']}>
       <div class={['flex-1 flex', props.mirrored ? '' : 'justify-end']}>
-        <div class='relative rounded bg-gray-200 dark:bg-gray-800 min-w-xs max-w-sm p-3 space-y-2'>
+        <div class='relative rounded-lg bg-gray-200 dark:bg-gray-800 min-w-xs max-w-sm p-3 m-3 space-y-2'>
           <span class='text-xl font-normal'>{props.name}</span>
           <p class='text-base'>{props.content}</p>
         </div>
