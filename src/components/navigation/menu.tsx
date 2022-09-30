@@ -19,7 +19,7 @@ export const Menu = component$((props: MenuProps) => {
           </ul>
         </div>
 
-        <a href='/' class='lg:flex-1 flex items-center md:justify-center'>
+        <a href='/' class='lg:flex-1 flex items-center md:justify-center ml-6 md:ml-0'>
           <img src='/images/logo.png' class='h-9 sm:h-12' alt='JDR Logo' />
         </a>
 
