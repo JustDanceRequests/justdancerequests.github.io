@@ -9,7 +9,7 @@ export interface MenuProps {
 
 export const Menu = component$((props: MenuProps) => {
   return (
-    <nav class='bg-gray-100 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900'>
+    <nav class='bg-gray-100 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900'>
       <div class='container flex flex-wrap justify-between items-center mx-auto'>
         <div class='md:flex-1 hidden w-full md:flex md:w-auto justify-center'>
           <ul class='flex flex-col items-center md:flex-row md:space-x-8 md:text-sm md:font-medium dark:bg-gray-800 md:dark:bg-gray-900'>
