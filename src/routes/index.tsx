@@ -22,33 +22,36 @@ export default component$(() => {
           ]}
         />
       </div>
-      <div class='flex h-2/3 bg-gray-900'>
+      <section class='flex h-2/3 bg-gray-900'>
         <Hero />
-      </div>
-      <div class='flex flex-row w-full h-full bg-gray-purple justify-end'></div>
-      <div class='flex flex-row w-full h-full bg-slate-600'></div>
-      <Timeline
-        data={[
-          {
-            icon: '🚀',
-            date: '14 Nov',
-            name: 'Release 1.0',
-            content: 'This is some content heheh',
-          },
-          {
-            icon: '🚀',
-            date: '14 Nov',
-            name: 'Release 1.0',
-            content: 'This is some content heheh',
-          },
-          {
-            icon: '🚀',
-            date: '14 Nov',
-            name: 'Release 1.0',
-            content: 'This is some content heheh',
-          },
-        ]}
-      />
+      </section>
+      <section id='about' class='flex flex-row w-full h-full bg-gray-purple justify-end'></section>
+      <section class='flex flex-row w-full h-full bg-slate-600'></section>
+
+      <section id='roadmap'>
+        <Timeline
+          data={[
+            {
+              icon: '🚀',
+              date: '14 Nov',
+              name: 'Release 1.0',
+              content: 'This is some content heheh',
+            },
+            {
+              icon: '🚀',
+              date: '14 Nov',
+              name: 'Release 1.0',
+              content: 'This is some content heheh',
+            },
+            {
+              icon: '🚀',
+              date: '14 Nov',
+              name: 'Release 1.0',
+              content: 'This is some content heheh',
+            },
+          ]}
+        />
+      </section>
     </div>
   );
 });
