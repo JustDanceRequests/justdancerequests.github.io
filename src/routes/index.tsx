@@ -2,17 +2,18 @@ import { component$ } from '@builder.io/qwik';
 import { Menu } from '@/components/navigation/menu';
 import { Timeline } from '@/components/timeline/timeline';
 import { Hero } from '@/components/hero';
+import { FeatureUI, FeatureChat, FeatureIntegration } from '@/components/content/content';
 
 export default component$(() => {
   return (
-    <div className='flex-1 dark:bg-gray-purple overflow-y-scroll'>
+    <div className='flex-1 dark:bg-gray-purple overflow-y-scroll overflow-x-hidden'>
       <div className='sticky top-0 z-10'>
         <Menu
           entries={[
             {
               icon: '🚀',
-              name: 'The Project',
-              href: '#about',
+              name: 'Features',
+              href: '#features',
             },
             {
               icon: '🗺️',
@@ -22,12 +23,14 @@ export default component$(() => {
           ]}
         />
       </div>
-      <section class='flex h-2/3 bg-gray-900'>
+      <section class='flex h-2/3 bg-slate-900'>
         <Hero />
       </section>
-      <section id='about' class='flex flex-row w-full h-full bg-gray-purple justify-end'></section>
-      <section class='flex flex-row w-full h-full bg-slate-600'></section>
-
+      <section id='features'>
+        <FeatureUI />
+        <FeatureChat />
+        <FeatureIntegration />
+      </section>
       <section id='roadmap'>
         <Timeline
           data={[
