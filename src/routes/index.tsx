@@ -6,8 +6,8 @@ import { FeatureUI, FeatureChat, FeatureIntegration } from '@/components/content
 
 export default component$(() => {
   return (
-    <div className='flex-1 dark:bg-gray-purple overflow-y-scroll overflow-x-hidden'>
-      <div className='sticky top-0 z-10'>
+    <div className='flex-1 w-full dark:bg-gray-purple overflow-y-scroll overflow-x-hidden pb-20'>
+      <div className='sticky top-0 z-20'>
         <Menu
           entries={[
             {
@@ -32,28 +32,53 @@ export default component$(() => {
         <FeatureIntegration />
       </section>
       <section id='roadmap'>
+        <p class='w-full bg-slate-800 p-12 text-white text-4xl font-normal text-center'>🗺️ Roadmap</p>
+
         <Timeline
           data={[
             {
               icon: '🚀',
-              date: '14 Nov',
-              name: 'Release 1.0',
-              content: 'This is some content heheh',
+              date: '7 Nov',
+              name: 'Testing 3.0',
+              content: 'Testing of the new backend / server structure',
             },
             {
               icon: '🚀',
               date: '14 Nov',
-              name: 'Release 1.0',
-              content: 'This is some content heheh',
+              name: 'Release 3.0',
+              content: 'Release of the new backend / server structure',
             },
             {
               icon: '🚀',
               date: '14 Nov',
-              name: 'Release 1.0',
-              content: 'This is some content heheh',
+              name: 'Song Update',
+              content: 'Finalization of the Just Dance 2023 Songs',
+            },
+            {
+              icon: '🚀',
+              date: 'December',
+              name: 'Release 3.1',
+              content: 'Song History and Cooldowns',
+            },
+            {
+              icon: '🚀',
+              date: 'TBD',
+              name: 'Release 3.2',
+              content: 'Requests via Channel Points / Bits',
+            },
+            {
+              icon: '🚀',
+              date: 'TBD',
+              name: 'Release 3.3',
+              content: 'Complete overhall of the UI',
             },
           ]}
         />
+        <p class='w-full dark:text-white text-base font-normal text-center'>
+          Please keep in mind that I am just a single person working on this project in my free time.
+          <br />
+          Dates may be subject to change.
+        </p>
       </section>
     </div>
   );
