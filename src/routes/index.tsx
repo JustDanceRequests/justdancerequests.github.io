@@ -6,8 +6,8 @@ import { FeatureUI, FeatureChat, FeatureIntegration } from '@/components/content
 
 export default component$(() => {
   return (
-    <div className='flex-1 w-full dark:bg-gray-purple overflow-y-scroll overflow-x-hidden pb-20'>
-      <div className='sticky top-0 z-20'>
+    <div class='flex-1 w-full dark:bg-gray-purple overflow-y-scroll overflow-x-hidden pb-20'>
+      <div class=''>
         <Menu
           entries={[
             {
