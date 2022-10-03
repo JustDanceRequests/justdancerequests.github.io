@@ -14,7 +14,7 @@ export const FeatureIntegration = component$(() => {
         </p>
       </div>
       <div class='flex-1 flex flex-row items-center justify-center'>
-        <img class='w-8/12 md:w-3/6' src='/images/extension/live-configuration.png' />
+        <img class='w-8/12 md:w-3/6 max-w-[275px]' src='/images/extension/live-configuration.png' />
       </div>
     </div>
   );

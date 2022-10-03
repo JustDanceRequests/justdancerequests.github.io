@@ -17,15 +17,15 @@ export const FeatureUI = component$(() => {
       </div>
       <div class='flex-1 flex flex-row -translate-x-[12%] md:translate-x-0'>
         <img
-          class='w-5/12 md:w-1/3 rounded-2xl -rotate-12 translate-x-[45%] translate-y-[4.5%] z-[3]'
+          class='w-5/12 md:w-1/3 max-w-[275px] rounded-2xl -rotate-12 translate-x-[45%] translate-y-[4.5%] z-[3]'
           src='/images/extension/song-details.jpeg'
         />
         <img
-          class='w-5/12 md:w-1/3 rounded-2xl rotate-0 translate-x-0 translate-y-0 z-[2]'
+          class='w-5/12 md:w-1/3 max-w-[275px] rounded-2xl rotate-0 translate-x-0 translate-y-0 z-[2]'
           src='/images/extension/song-queue.jpeg'
         />
         <img
-          class='w-5/12 md:w-1/3  rounded-2xl rotate-12 -translate-x-[45%] translate-y-[4.5%] z-[1]'
+          class='w-5/12 md:w-1/3 max-w-[275px] rounded-2xl rotate-12 -translate-x-[45%] translate-y-[4.5%] z-[1]'
           src='/images/extension/song-list.jpeg'
         />
       </div>
