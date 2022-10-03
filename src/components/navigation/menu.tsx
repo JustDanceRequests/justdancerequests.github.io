@@ -24,7 +24,7 @@ export const Menu = component$((props: MenuProps) => {
         </a>
 
         <div class='flex-1 flex flex-row items-center mr-6 md:mr-0 justify-end md:justify-center sm:space-x-12'>
-          <div class='hidden md:block'>
+          <div class='hidden'>
             <DarkLightModeSwitch />
           </div>
           <div class='flex flex-row justify-center'>
