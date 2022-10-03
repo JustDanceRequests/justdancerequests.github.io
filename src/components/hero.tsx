@@ -3,7 +3,7 @@ import { component$ } from '@builder.io/qwik';
 export const Hero = component$(() => {
   return (
     <div class='flex flex-col md:flex-row w-full'>
-      <div class='flex-1 flex flex-col items-center justify-center md:ml-64'>
+      <div class='flex-1 flex flex-col items-center justify-center md:ml-44'>
         <div class='flex-1 flex flex-col items-start justify-center space-y-16'>
           <div class='font-bold text-7xl'>
             <p class='text-fuchsia-400'>Interact.</p>
